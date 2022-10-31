@@ -22,9 +22,12 @@ Create a .env file in the project root, and make sure the following keys are add
     CLOUDINARY_API_KEY=<Insert your own value here...>
     CLOUDINARY_API_SECRET=<Insert your own value here...>
 
-Build and run the compiled version with the build and start scripts:
+Run and debug the application with the dev script:
 
-    npm run build
+    npm run dev
+
+Build and run the compiled version with the start script:
+
     npm run start
 
 ## Contact
