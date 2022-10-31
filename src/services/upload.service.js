@@ -19,7 +19,7 @@ const uploadToCloudinary = async (fileString, format) => {
 		const { uploader } = cloudinary;
 
 		const res = await uploader.upload(
-			`data:image/${format}:base64,${fileString}`
+			`data:image/${format};base64,${fileString}`
 		);
 
 		return res;
