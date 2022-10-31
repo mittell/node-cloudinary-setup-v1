@@ -18,11 +18,9 @@ Run the provided setup script:
 
 Create a .env file in the project root, and make sure the following keys are added:
 
-    PORT=<Add Port Number - e.g. 3000>
-    NODE_ENV=<Add Environment - e.g. development>
-    DB_URL=<Add DB PATH/URL>
-    SENTRY_URL=<Add Sentry URL>
-    JWT_SECRET=<Add Secret - Make it long and random!>
+    CLOUDINARY_CLOUD_NAME=<Insert your own value here...>
+    CLOUDINARY_API_KEY=<Insert your own value here...>
+    CLOUDINARY_API_SECRET=<Insert your own value here...>
 
 Build and run the compiled version with the build and start scripts:
 
